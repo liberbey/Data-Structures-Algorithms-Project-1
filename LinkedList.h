@@ -27,6 +27,8 @@ public:
 
     // update an existing element
     void updateNode(string _name, float _amount);
+    
+    void printNodes();
 
     ~LinkedList();
 };
